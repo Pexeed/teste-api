@@ -1,6 +1,6 @@
-package br.com.moovenconsulting.testeapi.rest
+package br.com.moovenconsulting.testeapi.rest.car
 
-import br.com.moovenconsulting.testeapi.model.CarBodywork
+import br.com.moovenconsulting.testeapi.model.car.CarBodywork
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
@@ -15,17 +15,17 @@ class CarBodyworkController {
     fun getBodyworks(): List<CarBodywork> {
         val list = ArrayList<CarBodywork>()
 
-        list.add( CarBodywork(list.size + 1L, "Hatch"
+        list.add(CarBodywork(list.size + 1L, "Hatch"
                 , "https://movida-premium-mock.herokuapp.com/bodyworks/hatch/car-of-hatchback-model@3x.png"))
-        list.add( CarBodywork(list.size + 1L, "SUV"
+        list.add(CarBodywork(list.size + 1L, "SUV"
                 , "https://movida-premium-mock.herokuapp.com/bodyworks/suv/jeep@3x.png"))
-        list.add( CarBodywork(list.size + 1L, "Perua/SW"
+        list.add(CarBodywork(list.size + 1L, "Perua/SW"
                 , "https://movida-premium-mock.herokuapp.com/bodyworks/perua/minivan-car@3x.png"))
-        list.add( CarBodywork(list.size + 1L, "Picape"
+        list.add(CarBodywork(list.size + 1L, "Picape"
                 , "https://movida-premium-mock.herokuapp.com/bodyworks/picape/pick-up@3x.png"))
-        list.add( CarBodywork(list.size + 1L, "Sedã"
+        list.add(CarBodywork(list.size + 1L, "Sedã"
                 , "https://movida-premium-mock.herokuapp.com/bodyworks/sedan/sedan-car-model@3x.png"))
-        list.add( CarBodywork(list.size + 1L, "Cupê"
+        list.add(CarBodywork(list.size + 1L, "Cupê"
                 , "https://movida-premium-mock.herokuapp.com/bodyworks/cupe/sportive-car@3x.png"))
 
         return list

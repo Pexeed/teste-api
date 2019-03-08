@@ -1,4 +1,4 @@
-package br.com.moovenconsulting.testeapi.model
+package br.com.moovenconsulting.testeapi.model.car
 
 data class CarBodywork (val id: Long, val name: String, val imageUrl: String) {
     companion object {
