@@ -1,13 +1,17 @@
 package br.com.moovenconsulting.testeapi.rest
 
 import br.com.moovenconsulting.testeapi.model.CarBodywork
+import org.springframework.http.HttpStatus
+import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.ResponseStatus
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class CarBodyworkController {
 
-    @GetMapping("/bodyworks")
+    @GetMapping("/bodyworks", produces = [MediaType.APPLICATION_JSON_VALUE] )
+    @ResponseStatus(HttpStatus.OK)
     fun getBodyworks(): List<CarBodywork> {
         val list = ArrayList<CarBodywork>()
 
