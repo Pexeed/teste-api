@@ -6,7 +6,7 @@ data class CarBodywork (val id: Long, val name: String, val imageUrl: String) {
             return CarBodywork(
                     1L,
                     "Sedã",
-                    "https://movida-premium-mock.herokuapp.com/brands/Mercedes/Mercedes@3x.png")
+                    "https://mooven-mock.herokuapp.com/brands/Mercedes/Mercedes@3x.png")
         }
     }
 }
