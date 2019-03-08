@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class DeadlineController {
-    @GetMapping("/mileages", produces = [MediaType.APPLICATION_JSON_VALUE] )
+
+    @GetMapping("/deadlines", produces = [MediaType.APPLICATION_JSON_VALUE] )
     @ResponseStatus(HttpStatus.OK)
     fun getDeadlines(): List<Deadline> {
         val list = ArrayList<Deadline>()
