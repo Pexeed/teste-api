@@ -16,7 +16,7 @@ class CarVersionController {
                 "180 Avantgarde",
                 "",
                 5000.0,
-                "https://localhost:8881/versions/c180-avantgarde/c180-avantgarde@3x.png",
+                "https://movida-premium-mock.herokuapp.com/versions/c180-avantgarde/c180-avantgarde@3x.png",
                 CarModel.getClasseC()
         ))
 
@@ -24,21 +24,21 @@ class CarVersionController {
                 "180 Exclusive",
                 "",
                 5500.0,
-                "https://localhost:8881/versions/c180-exclusive/c180-exclusive@3x.png",
+                "https://movida-premium-mock.herokuapp.com/versions/c180-exclusive/c180-exclusive@3x.png",
                 CarModel.getClasseC()
         ))
         list.add( CarVersion(list.size + 1L,
                 "200 EQ Boost",
                 "",
                 6000.0,
-                "https://localhost:8881/versions/c200-eq/c200-eq@3x.png",
+                "https://movida-premium-mock.herokuapp.com/versions/c200-eq/c200-eq@3x.png",
                 CarModel.getClasseC()
         ))
         list.add( CarVersion(list.size + 1L,
                 "300 Sport",
                 "",
                 7000.0,
-                "https://localhost:8881/versions/c300-sport/c300-sport@3x.png",
+                "https://movida-premium-mock.herokuapp.com/versions/c300-sport/c300-sport@3x.png",
                 CarModel.getClasseC()
         ))
 
