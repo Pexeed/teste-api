@@ -15,6 +15,8 @@ class CarBodyworkController {
     fun getBodyworks(): List<CarBodywork> {
         val list = ArrayList<CarBodywork>()
 
+        list.add(CarBodywork(list.size + 1L, "Sedã"
+                , "https://mooven-mock.herokuapp.com/bodyworks/sedan/sedan-car-model@3x.png"))
         list.add(CarBodywork(list.size + 1L, "Hatch"
                 , "https://mooven-mock.herokuapp.com/bodyworks/hatch/car-of-hatchback-model@3x.png"))
         list.add(CarBodywork(list.size + 1L, "SUV"
@@ -23,8 +25,6 @@ class CarBodyworkController {
                 , "https://mooven-mock.herokuapp.com/bodyworks/perua/minivan-car@3x.png"))
         list.add(CarBodywork(list.size + 1L, "Picape"
                 , "https://mooven-mock.herokuapp.com/bodyworks/picape/pick-up@3x.png"))
-        list.add(CarBodywork(list.size + 1L, "Sedã"
-                , "https://mooven-mock.herokuapp.com/bodyworks/sedan/sedan-car-model@3x.png"))
         list.add(CarBodywork(list.size + 1L, "Cupê"
                 , "https://mooven-mock.herokuapp.com/bodyworks/cupe/sportive-car@3x.png"))
 
