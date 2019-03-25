@@ -16,17 +16,17 @@ class CarBodyworkController {
         val list = ArrayList<CarBodywork>()
 
         list.add(CarBodywork(list.size + 1L, "Sedã"
-                , "https://mooven-mock.herokuapp.com/bodyworks/sedan/sedan-car-model@3x.png"))
+                , "/assets/images/bodywork/sedan.svg"))
         list.add(CarBodywork(list.size + 1L, "Hatch"
-                , "https://mooven-mock.herokuapp.com/bodyworks/hatch/car-of-hatchback-model@3x.png"))
+                , "/assets/images/bodywork/hatch.svg"))
         list.add(CarBodywork(list.size + 1L, "SUV"
-                , "https://mooven-mock.herokuapp.com/bodyworks/suv/jeep@3x.png"))
+                , "/assets/images/bodywork/suv.svg"))
         list.add(CarBodywork(list.size + 1L, "Perua/SW"
-                , "https://mooven-mock.herokuapp.com/bodyworks/perua/minivan-car@3x.png"))
+                , "/assets/images/bodywork/perua-sw.svg"))
         list.add(CarBodywork(list.size + 1L, "Picape"
-                , "https://mooven-mock.herokuapp.com/bodyworks/picape/pick-up@3x.png"))
+                , "/assets/images/bodywork/pickup.svg"))
         list.add(CarBodywork(list.size + 1L, "Cupê"
-                , "https://mooven-mock.herokuapp.com/bodyworks/cupe/sportive-car@3x.png"))
+                , "/assets/images/bodywork/cupe.svg"))
 
         return list
     }

@@ -20,7 +20,11 @@ class CarVersionController {
                 "180 Avantgarde",
                 "",
                 5000.0,
-                "https://mooven-mock.herokuapp.com/versions/c180-avantgarde/c180-avantgarde@3x.png",
+                "[" +
+                        "{size: \"1x\",url: \"/assets/images/cars/c180-avantgarde.png\"}," +
+                        "{size: \"2x\",url: \"/assets/images/cars/c180-avantgarde@2x.png\"}," +
+                        "{size: \"3x\",url: \"/assets/images/cars/c180-avantgarde@3x.png\"}" +
+                        "]",
                 CarModel.getClasseC()
         ))
 
@@ -28,21 +32,33 @@ class CarVersionController {
                 "180 Exclusive",
                 "",
                 5500.0,
-                "https://mooven-mock.herokuapp.com/versions/c180-exclusive/c180-exclusive@3x.png",
+                "[" +
+                        "{size: \"1x\",url: \"/assets/images/cars/c180-exclusive.png\"}," +
+                        "{size: \"2x\",url: \"/assets/images/cars/c180-exclusive@2x.png\"}," +
+                        "{size: \"3x\",url: \"/assets/images/cars/c180-exclusive@3x.png\"}" +
+                        "]",
                 CarModel.getClasseC()
         ))
         list.add(CarVersion(list.size + 1L,
                 "200 EQ Boost",
                 "",
                 6000.0,
-                "https://mooven-mock.herokuapp.com/versions/c200-eq/c200-eq@3x.png",
+                "[" +
+                        "{size: \"1x\",url: \"/assets/images/cars/c200-eq.png\"}," +
+                        "{size: \"2x\",url: \"/assets/images/cars/c200-eq@2x.png\"}," +
+                        "{size: \"3x\",url: \"/assets/images/cars/c200-eq@3x.png\"}" +
+                        "]",
                 CarModel.getClasseC()
         ))
         list.add(CarVersion(list.size + 1L,
                 "300 Sport",
                 "",
                 7000.0,
-                "https://mooven-mock.herokuapp.com/versions/c300-sport/c300-sport@3x.png",
+                "[" +
+                        "{size: \"1x\",url: \"/assets/images/cars/c300-sport.png\"}," +
+                        "{size: \"2x\",url: \"/assets/images/cars/c300-sport@2x.png\"}," +
+                        "{size: \"3x\",url: \"/assets/images/cars/c300-sport@3x.png\"}" +
+                        "]",
                 CarModel.getClasseC()
         ))
 
